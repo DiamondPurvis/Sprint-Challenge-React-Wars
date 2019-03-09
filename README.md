@@ -25,21 +25,12 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [x ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
-      React is a javscript framework used for many different browser needs. One problem that it solves is the constant need to refresh the DOM on intensive applications.
-      It's built to handle very complicated DOM updates. It updates certain areas without causing change in other areas, which makes things faster.
 
 - [x ] What does it mean to _think_ in react?
-      -React is made in such a way that it makes you tink about how you want to build an application first. 
-      -You take a mockup and break the mockup and break it up into components. You do this by drawing boxes around areas and naming them.
-      -Each component should only do one thing.
-      -You then create a static version using the one-way data flow.
-      -
 
 - [x ] Describe state.
-      -Stare lets react componenets change over time in response to certain actions without violating the rile that compnonents must act like pure functions while respecting the props.
 
 - [x ] Describe props.
-      -props are read only properties
 
 ## Project Set Up
 
