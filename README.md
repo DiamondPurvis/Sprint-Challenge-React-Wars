@@ -24,22 +24,31 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [x ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+      React is a javscript framework used for many different browser needs. One problem that it solves is the constant need to refresh the DOM on intensive applications.
+      It's built to handle very complicated DOM updates. It updates certain areas without causing change in other areas, which makes things faster.
 
-- [ ] What does it mean to _think_ in react?
+- [x ] What does it mean to _think_ in react?
+      -React is made in such a way that it makes you tink about how you want to build an application first. 
+      -You take a mockup and break the mockup and break it up into components. You do this by drawing boxes around areas and naming them.
+      -Each component should only do one thing.
+      -You then create a static version using the one-way data flow.
+      -
 
-- [ ] Describe state.
+- [x ] Describe state.
+      -Stare lets react componenets change over time in response to certain actions without violating the rile that compnonents must act like pure functions while respecting the props.
 
-- [ ] Describe props.
+- [x ] Describe props.
+      -props are read only properties
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [ x] Create a forked copy of this project.
+- [x ] Add PM as collaborator on Github.
+- [x ] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Change directories into `./starwars` (`cd starwars`) and run `yarn install` to retrieve all needed dependencies.
 - [ ] Once you have installed the _node_modules_, run `yarn start or` to get your server up and running.
 - [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
